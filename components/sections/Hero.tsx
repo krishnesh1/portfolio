@@ -42,6 +42,26 @@ export default function Hero() {
 
   return (
     <section ref={root} id="top" className="relative flex min-h-[100svh] flex-col overflow-hidden">
+                <div className="pointer-events-none absolute inset-0 z-0
+          overflow-hidden">
+            <video
+              src="/developer-intro.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              suppressHydrationWarning
+              className="h-full w-full object-cover opacity-35"
+            />
+            {/* Soft dark gradients so your name & text stay 100% readable
+            */}
+            <div className="absolute inset-0 bg-gradient-to-t from-ink
+            via-ink/40 to-ink/75" />
+            <div className="absolute inset-0 bg-gradient-to-r from-ink/80
+            via-transparent to-ink/70" />
+          </div>
+          {/* ⬆️ ⬆️ ⬆️ END OF VIDEO BLOCK ⬆️ ⬆️ ⬆️ */}
+      
       {/* soft ambient glow */}
       <div
         aria-hidden
