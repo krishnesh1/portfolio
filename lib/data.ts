@@ -14,7 +14,7 @@ export const profile = {
     "I build fast, secure and user-centric web apps — from the database to the pixel.",
   location: "Baddi, Himachal Pradesh, India",
   email: "karnkrishnesh970@gmail.com",
-  resume: "/Krishnesh_Karn_Resume.pdf",
+  resume: "/Resume.pdf",
   // TODO: paste your real profile URLs. Empty strings hide the link.
   github: "https://github.com/krishnesh1",
   linkedin: "https://www.linkedin.com/in/krishneshkarn/?isSelfProfile=true",
